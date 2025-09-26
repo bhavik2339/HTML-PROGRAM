@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+
+ void main()
+ {
+    int i, last;
+	clrscr();
+
+    printf("Enter the last number: ");
+    scanf("%d", &last);
+
+    printf("\nEven Numbers:\n");
+    for (i = 2; i <= last; i += 2) {
+        printf("%d ", i);
+    }
+
+    printf("\nOdd Numbers:\n");
+    for (i = 1; i <= last; i += 2) {
+        printf("%d ", i);
+    }
+
+    getch();
+}
